@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rocket</title>
+  </head>
+  <body>
+    <main>
+      <canvas id="gameCanvas"></canvas>
+    </main>
+    
+    <div class="settings">
+      <div class="points">
+        <h2>Очки:</h2>
+        <h2 id="points">0</h2>
+      </div>
+
+      <div class="buttons">
+        <button id="startButton">Пуск</button>
+        <button id="continueButton">Продолжить</button>
+        <button id="stopButton">Стоп</button>
+      </div>
+
+      <div class="levelContainer">
+        <h3 class="levels">Уровень:</h3>
+        <h3 id="showLevel">Легкий</h3>
+      </div>
+      <div class="buttons">
+        <button id="easyLevel">Легкий</button>
+        <button id="middleLevel">Средний</button>
+        <button id="hardLevel">Сложный</button>
+      </div>
+    </div>
+
+    <div id="speedChartContainer"></div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
